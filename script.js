@@ -121,6 +121,7 @@ new Animal( "cow", "bessy", "black & white", 4);
 		this.hp = this.str * 10 + this.dex * 5 + this.int * 2;
 		this.mp = this.str * 1 + this.dex * 2 + this.int * 3;
 		this.mv = this.str * 1 + this.dex * 3 + this.int * 2;
+
 		this.def = this.dex * 3 + this.int * 2;
 		this.spd = this.str * 2 + this.dex * 3;
 		this.atk = this.str * 2 + this.dex * 1;
